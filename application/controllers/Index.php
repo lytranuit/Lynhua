@@ -11,27 +11,27 @@ class Index extends MY_Controller
         $this->data['is_login'] = $this->ion_auth->logged_in();
 ////////////////////////////////// Stle mac dinh
         $this->data['stylesheet_tag'] = array(
-            base_url() ."vendor/bootstrap/css/bootstrap.min.css",
-            base_url() ."vendor/font-awesome/css/font-awesome.min.css",
+            base_url() ."public/bootstrap/css/bootstrap.min.css",
+            base_url() ."public/font-awesome/css/font-awesome.min.css",
             "https://fonts.googleapis.com/css?family=Roboto:300,400,700",
-            base_url() ."vendor/bootstrap-select/css/bootstrap-select.min.css",
-            base_url() ."vendor/owl.carousel/assets/owl.carousel.css",
-            base_url() ."vendor/owl.carousel/assets/owl.theme.default.css",
+            base_url() ."public/bootstrap-select/css/bootstrap-select.min.css",
+            base_url() ."public/owl.carousel/assets/owl.carousel.css",
+            base_url() ."public/owl.carousel/assets/owl.theme.default.css",
             base_url() ."css/style.default.css",
             base_url() ."css/custom.css"
         );
         $this->data['javascript_tag'] = array(
-            base_url() ."vendor/jquery/jquery.min.js",
-            base_url() ."vendor/popper.js/umd/popper.min.js",
-            base_url() ."vendor/bootstrap/js/bootstrap.min.js",
-            base_url() ."vendor/jquery.cookie/jquery.cookie.js",
-            base_url() ."vendor/waypoints/lib/jquery.waypoints.min.js",
-            base_url() ."vendor/jquery.counterup/jquery.counterup.min.js",
-            base_url() ."vendor/owl.carousel/owl.carousel.min.js",
-            base_url() ."vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js",
+            base_url() ."public/jquery/jquery.min.js",
+            base_url() ."public/popper.js/umd/popper.min.js",
+            base_url() ."public/bootstrap/js/bootstrap.min.js",
+            base_url() ."public/jquery.cookie/jquery.cookie.js",
+            base_url() ."public/waypoints/lib/jquery.waypoints.min.js",
+            base_url() ."public/jquery.counterup/jquery.counterup.min.js",
+            base_url() ."public/owl.carousel/owl.carousel.min.js",
+            base_url() ."public/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js",
             base_url() ."js/jquery.parallax-1.1.3.js",
-            base_url() ."vendor/bootstrap-select/js/bootstrap-select.min.js",
-            base_url() ."vendor/jquery.scrollto/jquery.scrollTo.min.js",
+            base_url() ."public/bootstrap-select/js/bootstrap-select.min.js",
+            base_url() ."public/jquery.scrollto/jquery.scrollTo.min.js",
             base_url() ."js/front.js"
         );
     }
