@@ -7,7 +7,7 @@
     <!-- SIDEBAR USER TITLE -->
     <div class="profile-usertitle">
         <div class="profile-usertitle-name">
-            {{$_SESSION['identity']}}
+            {{$_SESSION['identity'] || ''}}
         </div>
     </div>
     <!-- END SIDEBAR USER TITLE -->
