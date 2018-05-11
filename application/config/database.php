@@ -76,10 +76,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
   $db['default'] = array(
     'dsn' => '',
-    'hostname' => isset($_ENV["HOST"]) ? $_ENV["HOST"] : 'localhost',
-    'username' => isset($_ENV["USER"]) ? $_ENV["USER"] : 'root',
+    'hostname' => isset($_ENV["HOSTNAME"]) ? $_ENV["HOSTNAME"] : 'localhost',
+    'username' => isset($_ENV["USERNAME"]) ? $_ENV["USERNAME"] : 'root',
     'password' => isset($_ENV["PASSWORD"]) ? $_ENV["PASSWORD"] : '',
-    'database' => isset($_ENV["NAME"]) ?$_ENV["NAME"] : 'chungcu',
+    'database' => isset($_ENV["DATABASE"]) ?$_ENV["DATABASE"] : 'chungcu',
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,
